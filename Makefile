@@ -1,4 +1,3 @@
-.DEFAULT_GOAL := up
 export SHELL := /usr/bin/env bash -Eeu -o pipefail
 export ANSIBLE_INVENTORY := config/hosts.dev.ini
 
